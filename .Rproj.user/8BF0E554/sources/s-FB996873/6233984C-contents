@@ -1,9 +1,7 @@
 library(shiny)
 library(tidyverse)
 
-a <- 5
-print(a^2)
-bcl <- read.csv("/Users/apple/Desktop/STAT545/hw08-ziqiangt/hw08-ziqiangt/bcl/bcl-data.csv")
+bcl <- read.csv("bcl-data.csv", stringsAsFactors = FALSE)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
