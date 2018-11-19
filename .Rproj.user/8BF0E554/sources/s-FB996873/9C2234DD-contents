@@ -25,13 +25,13 @@ My repository is structured as follows:
 
 ## Feature 1
 
-### Add an option to sort the results table by price. You need to enabel the "sort by price" function by confirming the button showns as below.
+** Add an option to sort the results table by price. You need to enabel the "sort by price" function by confirming the button showns as below.**
 
 ![](./image/sort_by_price.png)
 
 ## Feature 2
 
-### Add an image of the BC Liquor Store to the UI.
+** Add an image of the BC Liquor Store to the UI.**
 
 An `.gif` is added in the welcome tab.
 
@@ -39,7 +39,7 @@ An `.gif` is added in the welcome tab.
 
 ## Feature 3
 
-### Place the plot and the table in separate tabs.
+** Place the plot and the table in separate tabs.**
 
 ![](./image/tapsetPanel.png)
 

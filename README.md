@@ -1,11 +1,8 @@
 -   [STAT 545A Homework 08 Repo owned by Ziqiang Tang](#stat-545a-homework-08-repo-owned-by-ziqiang-tang)
     -   [Overview](#overview)
     -   [Feature 1](#feature-1)
-        -   [Add an option to sort the results table by price. You need to enabel the "sort by price" function by confirming the button showns as below.](#add-an-option-to-sort-the-results-table-by-price.-you-need-to-enabel-the-sort-by-price-function-by-confirming-the-button-showns-as-below.)
     -   [Feature 2](#feature-2)
-        -   [Add an image of the BC Liquor Store to the UI.](#add-an-image-of-the-bc-liquor-store-to-the-ui.)
     -   [Feature 3](#feature-3)
-        -   [Place the plot and the table in separate tabs.](#place-the-plot-and-the-table-in-separate-tabs.)
     -   [References](#references)
 
 STAT 545A Homework 08 Repo owned by Ziqiang Tang
@@ -31,14 +28,14 @@ My repository is structured as follows:
 Feature 1
 ---------
 
-### Add an option to sort the results table by price. You need to enabel the "sort by price" function by confirming the button showns as below.
+\*\* Add an option to sort the results table by price. You need to enabel the "sort by price" function by confirming the button showns as below.\*\*
 
 ![](./image/sort_by_price.png)
 
 Feature 2
 ---------
 
-### Add an image of the BC Liquor Store to the UI.
+\*\* Add an image of the BC Liquor Store to the UI.\*\*
 
 An `.gif` is added in the welcome tab.
 
@@ -47,7 +44,7 @@ An `.gif` is added in the welcome tab.
 Feature 3
 ---------
 
-### Place the plot and the table in separate tabs.
+\*\* Place the plot and the table in separate tabs.\*\*
 
 ![](./image/tapsetPanel.png)
 
