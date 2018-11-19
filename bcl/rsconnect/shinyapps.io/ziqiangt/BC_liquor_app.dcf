@@ -1,0 +1,12 @@
+name: BC_liquor_app
+title: BC_liquor_app
+username:
+account: ziqiangt
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 579111
+bundleId: 1707910
+url: https://ziqiangt.shinyapps.io/BC_liquor_app/
+when: 1542588696.14475
+asMultiple: FALSE
+asStatic: FALSE
