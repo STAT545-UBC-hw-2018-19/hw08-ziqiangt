@@ -1,0 +1,51 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+    toc: true
+    toc_depth: 4
+---
+
+# STAT 545A Homework 08 Repo owned by Ziqiang Tang
+
+## Overview
+
+This assignment is to modify the shiny app called "BC Liquor store prices", which is originally developed by [Dean Attali](https://github.com/daattali/shiny-server/tree/master/bcl), and the data is retrieved from [OpenDataBC](https://www.opendatabc.ca/dataset/bc-liquor-store-product-price-list-current-prices).
+
+My repository is structured as follows:
+
+| Documents | Description                        |
+|-----------|------------------------------------|
+| [README.md](https://github.com/STAT545-UBC-students/hw08-ziqiangt/blob/master/README.md)   | the markdown file for homework 7   |
+| [README.rmd](https://github.com/STAT545-UBC-students/hw08-ziqiangt/blob/master/README.Rmd) | the R-markdown file for homework 7   |
+| [ziqiang's modified app](https://ziqiangt.shinyapps.io/BC_liquor_app/)  | the modified app deployed online on [shinyapps.io](http://www.shinyapps.io/) |
+| [bcl](https://github.com/STAT545-UBC-students/hw08-ziqiangt/tree/master/bcl)  | the folder for "BC Liquor store prices" app   |
+| [data](https://github.com/STAT545-UBC-students/hw08-ziqiangt/tree/master/bcl/data)  | the folder for dataset  |
+| [www](https://github.com/STAT545-UBC-students/hw08-ziqiangt/tree/master/bcl/www)  | the folder for app's logo  |
+|Other | Other files such a .Rproj and .gitignore|
+
+## Feature 1
+
+### Add an option to sort the results table by price. You need to enabel the "sort by price" function by confirming the button showns as below.
+
+![](./image/sort_by_price.png)
+
+## Feature 2
+
+### Add an image of the BC Liquor Store to the UI.
+
+An `.gif` is added in the welcome tab.
+
+![](./bcl/www/logo.gif)
+
+## Feature 3
+
+### Place the plot and the table in separate tabs.
+
+![](./image/tapsetPanel.png)
+
+
+## References
+- [Dean Attali's tutorial](http://deanattali.com/blog/building-shiny-apps-tutorial/)
+- [Rdocumentation](https://www.rdocumentation.org/)
+- [Icons](http://fontawesome.io/icons/)

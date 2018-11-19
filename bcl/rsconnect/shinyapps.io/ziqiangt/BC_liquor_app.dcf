@@ -5,8 +5,8 @@ account: ziqiangt
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 579111
-bundleId: 1707946
+bundleId: 1708073
 url: https://ziqiangt.shinyapps.io/BC_liquor_app/
-when: 1542590118.70812
+when: 1542597738.08318
 asMultiple: FALSE
 asStatic: FALSE
