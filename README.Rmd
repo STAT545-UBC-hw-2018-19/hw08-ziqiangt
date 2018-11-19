@@ -11,7 +11,7 @@ output:
 
 This assignment is to modify the shiny app called "BC Liquor store prices", which is originally developed by [Dean Attali](https://github.com/daattali/shiny-server/tree/master/bcl), and the data is retrieved from [OpenDataBC](https://www.opendatabc.ca/dataset/bc-liquor-store-product-price-list-current-prices).
 
-My repository is structured as follows:
+** My repository is structured as follows: **
 
 | Documents | Description                        |
 |-----------|------------------------------------|
