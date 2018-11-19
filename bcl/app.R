@@ -1,7 +1,7 @@
 library(shiny)
 library(dplyr)
 library(ggplot2)
-
+library(shinyjs)
 
 # load the data (retrieve and clean raw data if this is the first time)
 filename <- file.path("data", "bcl-data.csv")
@@ -33,9 +33,7 @@ ui <- fluidPage(
   
   #-------------------------------------------------------------------------------------
   ## gif as logo
-  div(id="logo",
-      img(src = "logo.gif")
-  ),
+  img(src = "logo.gif"),
   #-------------------------------------------------------------------------------------
   
   sidebarLayout(
@@ -45,22 +43,28 @@ ui <- fluidPage(
       ),
       br(),
       
-      #-------------------------------------------------------------------------------------
-      ## sort by price
-      checkboxInput("sortByPrice", "Sort by price", FALSE),
-      ## a conditionalPanel for ascending or descending ordering
-      conditionalPanel(
-        condition = "input.sortByPrice",
-        uiOutput("PriceSortOutput")),
-      #-------------------------------------------------------------------------------------
+      tabsetPanel(id = "optionTabs", type = "tabs",
+        tabPanel("Filter", icon = icon("search-dollar"),
+        #-------------------------------------------------------------------------------------
+        ## sort by price
+        checkboxInput("sortByPrice", "Sort by price", FALSE),
+        ## a conditionalPanel for ascending or descending ordering
+        conditionalPanel(
+          condition = "input.sortByPrice",
+          uiOutput("PriceSortOutput")),
+        #-------------------------------------------------------------------------------------
       
-      sliderInput("priceInput", "Price", 0, 100, c(25, 40), pre = "$"),
-      uiOutput("typeSelectOutput"),
-      checkboxInput("filterCountry", "Filter by country", FALSE),
-      conditionalPanel(
-        condition = "input.filterCountry",
-        uiOutput("countrySelectorOutput")
-      ),
+        sliderInput("priceInput", "Price", 0, 100, c(25, 40), pre = "$"),
+        uiOutput("typeSelectOutput")
+        ),
+        ## tabPanel for filter by country
+        tabPanel("Country", icon = icon("globe-americas"),
+                 checkboxInput("filterCountry", "Filter by country", FALSE),
+                 conditionalPanel(
+                   condition = "input.filterCountry",
+                   uiOutput("countrySelectorOutput")
+                 )
+        )),
       hr(),
       span("Data source:", 
            tags$a("OpenDataBC",
