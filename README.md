@@ -4,6 +4,8 @@
     -   [Feature 2](#feature-2)
     -   [Feature 3](#feature-3)
     -   [References](#references)
+    -   [Here is my previous homework if you are interested](#here-is-my-previous-homework-if-you-are-interested)
+    -   [It's would be very kind if you could give me some **comments**.](#its-would-be-very-kind-if-you-could-give-me-some-comments.)
 
 STAT 545A Homework 08 Repo owned by Ziqiang Tang
 ================================================
@@ -54,3 +56,27 @@ References
 -   [Dean Attali's tutorial](http://deanattali.com/blog/building-shiny-apps-tutorial/)
 -   [Rdocumentation](https://www.rdocumentation.org/)
 -   [Icons](http://fontawesome.io/icons/)
+
+Here is my previous homework if you are interested
+--------------------------------------------------
+
+-   You can click to go to my homework solutions
+    -   homework01
+        -   [homework01 solution](https://github.com/STAT545-UBC-students/hw01-ziqiangt)
+    -   homework02
+        -   [homework02 solution](https://github.com/STAT545-UBC-students/hw02-ziqiangt)
+    -   homework03
+        -   [homework03 solution](https://github.com/STAT545-UBC-students/hw03-ziqiangt)
+    -   homework04
+        -   [homework04 solution](https://github.com/STAT545-UBC-students/hw04-ziqiangt)
+    -   homework05
+        -   [homework05 solution](https://github.com/STAT545-UBC-students/hw05-ziqiangt)
+    -   homework06
+        -   [homework06 solution](https://github.com/STAT545-UBC-students/hw06-ziqiangt)
+    -   homework07
+        -   [homework07 solution](https://github.com/STAT545-UBC-students/hw07-ziqiangt)
+
+It's would be very kind if you could give me some **comments**.
+---------------------------------------------------------------
+
+**[homework07 Comments](https://github.com/STAT545-UBC-students/hw08-ziqiangt/issues)**
