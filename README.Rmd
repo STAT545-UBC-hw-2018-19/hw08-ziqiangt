@@ -3,7 +3,6 @@ output:
   md_document:
     variant: markdown_github
     toc: true
-    toc_depth: 4
 ---
 
 # STAT 545A Homework 08 Repo owned by Ziqiang Tang
