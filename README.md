@@ -79,4 +79,4 @@ Here is my previous homework if you are interested
 It's would be very kind if you could give me some **comments**.
 ---------------------------------------------------------------
 
-**[homework07 Comments](https://github.com/STAT545-UBC-students/hw08-ziqiangt/issues)**
+**[homework08 Comments](https://github.com/STAT545-UBC-students/hw08-ziqiangt/issues)**
