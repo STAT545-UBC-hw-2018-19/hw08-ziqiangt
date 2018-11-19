@@ -11,7 +11,7 @@ output:
 
 This assignment is to modify the shiny app called "BC Liquor store prices", which is originally developed by [Dean Attali](https://github.com/daattali/shiny-server/tree/master/bcl), and the data is retrieved from [OpenDataBC](https://www.opendatabc.ca/dataset/bc-liquor-store-product-price-list-current-prices).
 
-** My repository is structured as follows: **
+**My repository is structured as follows:**
 
 | Documents | Description                        |
 |-----------|------------------------------------|
@@ -25,21 +25,19 @@ This assignment is to modify the shiny app called "BC Liquor store prices", whic
 
 ## Feature 1
 
-** Add an option to sort the results table by price. You need to enabel the "sort by price" function by confirming the button showns as below.**
+**Add an option to sort the results table by price. You need to enabel the "sort by price" function by confirming the button showns as below.**
 
 ![](./image/sort_by_price.png)
 
 ## Feature 2
 
-** Add an image of the BC Liquor Store to the UI.**
-
-An `.gif` is added in the welcome tab.
+**Add an image of the BC Liquor Store to the UI.**
 
 ![](./bcl/www/logo.gif)
 
 ## Feature 3
 
-** Place the plot and the table in separate tabs.**
+**Place the plot and the table in separate tabs.**
 
 ![](./image/tapsetPanel.png)
 
