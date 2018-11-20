@@ -18,6 +18,7 @@ This assignment is to modify the shiny app called "BC Liquor store prices", whic
 | [README.md](https://github.com/STAT545-UBC-students/hw08-ziqiangt/blob/master/README.md)   | the markdown file for homework 7   |
 | [README.rmd](https://github.com/STAT545-UBC-students/hw08-ziqiangt/blob/master/README.Rmd) | the R-markdown file for homework 7   |
 | [ziqiang's modified app](https://ziqiangt.shinyapps.io/BC_liquor_app/)  | the modified app deployed online on [shinyapps.io](http://www.shinyapps.io/) |
+| [app.R](https://github.com/STAT545-UBC-students/hw08-ziqiangt/blob/master/bcl/app.R/)  | the modified app code |
 | [bcl](https://github.com/STAT545-UBC-students/hw08-ziqiangt/tree/master/bcl)  | the folder for "BC Liquor store prices" app   |
 | [data](https://github.com/STAT545-UBC-students/hw08-ziqiangt/tree/master/bcl/data)  | the folder for dataset  |
 | [www](https://github.com/STAT545-UBC-students/hw08-ziqiangt/tree/master/bcl/www)  | the folder for app's logo  |
@@ -40,6 +41,12 @@ This assignment is to modify the shiny app called "BC Liquor store prices", whic
 **Place the plot and the table in separate tabs.**
 
 ![](./image/tapsetPanel.png)
+
+## Feature 4
+
+**Place the plot and the table in separate tabs.**
+
+![](./image/tapsetPanel2.png)
 
 
 ## References

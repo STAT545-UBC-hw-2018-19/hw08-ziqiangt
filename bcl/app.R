@@ -44,27 +44,27 @@ ui <- fluidPage(
       br(),
       
       tabsetPanel(id = "optionTabs", type = "tabs",
-        tabPanel("Filter", icon = icon("search-dollar"),
-        #-------------------------------------------------------------------------------------
-        ## sort by price
-        checkboxInput("sortByPrice", "Sort by price", FALSE),
-        ## a conditionalPanel for ascending or descending ordering
-        conditionalPanel(
-          condition = "input.sortByPrice",
-          uiOutput("PriceSortOutput")),
-        #-------------------------------------------------------------------------------------
-      
-        sliderInput("priceInput", "Price", 0, 100, c(25, 40), pre = "$"),
-        uiOutput("typeSelectOutput")
-        ),
-        ## tabPanel for filter by country
-        tabPanel("Country", icon = icon("globe-americas"),
-                 checkboxInput("filterCountry", "Filter by country", FALSE),
-                 conditionalPanel(
-                   condition = "input.filterCountry",
-                   uiOutput("countrySelectorOutput")
-                 )
-        )),
+                  tabPanel("Filter", icon = icon("search-dollar"),
+                           #-------------------------------------------------------------------------------------
+                           ## sort by price
+                           checkboxInput("sortByPrice", "Sort by price", FALSE),
+                           ## a conditionalPanel for ascending or descending ordering
+                           conditionalPanel(
+                             condition = "input.sortByPrice",
+                             uiOutput("PriceSortOutput")),
+                           #-------------------------------------------------------------------------------------
+                           
+                           sliderInput("priceInput", "Price", 0, 100, c(25, 40), pre = "$"),
+                           uiOutput("typeSelectOutput")
+                  ),
+                  ## tabPanel for filter by country
+                  tabPanel("Country", icon = icon("globe-americas"),
+                           checkboxInput("filterCountry", "Filter by country", FALSE),
+                           conditionalPanel(
+                             condition = "input.filterCountry",
+                             uiOutput("countrySelectorOutput")
+                           )
+                  )),
       hr(),
       span("Data source:", 
            tags$a("OpenDataBC",
@@ -75,17 +75,23 @@ ui <- fluidPage(
         HTML("&bull;"),
         span("Code", a(href = "https://github.com/daattali/shiny-server/tree/master/bcl", "on GitHub")),
         br(), 
-        span("Imprved code", a(href = "https://github.com/STAT545-UBC-students/hw08-ziqiangt", "Ziqiang's Git"))
+        span("Improved code", a(href = "https://github.com/STAT545-UBC-students/hw08-ziqiangt", "Ziqiang's Git"))
       )
     ),
     mainPanel(
       h3(textOutput("summaryText")),
       downloadButton("download", "Download results"),
       br(),
-      plotOutput("plot"),
-      br(), br(),
-      #tableOutput("prices")
-      DT::dataTableOutput("prices")
+      #-------------------------------------------------------------------------------------
+      # seperate table and plot
+      tabsetPanel(
+        #tableOutput("plot")
+        tabPanel("Plot", plotOutput("plot")),
+        #tableOutput("table")
+        tabPanel("Table", DT::dataTableOutput("prices"))
+      ),
+      #-------------------------------------------------------------------------------------
+      br()
     )
   )
 )
